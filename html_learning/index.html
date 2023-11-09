@@ -12,6 +12,7 @@
         <p>In this page you can see pure HTML elements made by Nurulla.</p>
         <p>This is a <br> paragraph with a line break.</p>
         <p title="I'm a tooltip">I am tooltip, try to move mouse over me.</p>
+        <a href="login.html">Login page</a>
         <hr>
         <h1>KARATE BELT LEVELS: <br> BLACKBELT</h1>
         <h2>REDBELT</h2>
@@ -20,6 +21,7 @@
         <h5>BLUEBELT</h5>
         <h6>GREENBELT</h6>
         <hr>
+        <h2>Preformatted text</h2>
         <pre>
             Algalai ber Kyrgyz el,
 
@@ -30,8 +32,10 @@
             Oz tagdyryn kolunda.
         </pre>
         <hr>
+        <h2>HTML Formatting</h2>
         <p><b>I am bold</b>, <strong>It's important</strong>, <i>Italy</i>, <em>Emphasized</em>, <mark>Marked</mark>, <small>Smaller</small>, <del>Deleted</del>, <ins>Inserted</ins>, log<sub>a</sub>x<sup>n</sup></p>
         <hr>
+        <h2>Text Direction</h2>
         <p>What said Arnold Schwarzenegger? He said: <q><bdo dir="rtl"> I'll be back!</bdo></q></p>
         <hr>
         <h2>HTML Links</h2>
@@ -107,27 +111,49 @@
             <br><label for="lname">Last name:</label><br>
             <input type="text" id="lname" name="lname"><br><br>
             <input type="submit" value="Submit">
-        </form>
-        <p>Who is the GOAT?</p>
+        </form><br>
         <form>
+            <span>Who is the GOAT?</span><br>
             <input type="radio" id="messi" name="goat" value="Messi">
             <label for="messi">Messi</label><br>
             <input type="radio" id="ronaldo" name="goat" value="Ronaldo">
             <label for="ronaldo">Ronaldo</label><br>
             <input type="radio" id="maguire" name="goat" value="Maguire">
             <label for="maguire">Maguire</label>
-        </form>
+        </form><br>
         <form>
             <label for="cars"> Choose a car:</label>
             <select name="cars" id="cars">
-                <option value="Volvo">Volvo</option>
-                <option value="BMW">BMW</option>
-                <option value="Audi">Audi</option>
-                <option value="Mercedes Benz">Mercedes Benz</option>
-                <option value="Rivian">Rivian</option>
-                <option value="Tesla">Tesla</option>
-                <option value="Kia">Kia</option>
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="audi" selected>Audi</option>
+                <option value="mercedes_benz">Mercedes Benz</option>
+                <option value="rivian">Rivian</option>
+                <option value="tesla">Tesla</option>
+                <option value="kia">Kia</option>
             </select>
+        </form><br>
+        <textarea name="message" id="message" cols="30" rows="10">This is a text area, you can leave a feedback to the developers.</textarea><br>
+        <button type="button" onclick="alert('Hi there!')">Click me!</button><br><br>
+        <hr>
+        <h2>The &lt;fieldset&gt; and &lt;legend&gt; Elements</h2>
+        <form>
+            <fieldset>
+                <legend>Student</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" name="fname" id="fname"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" name="lname" id="lname"><br><br>
+                <label for="department">Department:</label><br>
+                <input type="text" name="department" id="department"><br><br>
+                <label for="bday">Birth date:</label><br>
+                <input type="date" name="bday" id="bday" min="1923-01-01"><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
         </form>
+        <hr>
+        <h2>HTML Media</h2>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/WWdbUgyTIbU" title="TheFatRat - Warrior Songs (DOTA 2 music pack)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </body>
 </html>
