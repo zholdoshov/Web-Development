@@ -1,0 +1,87 @@
+body{
+    background-color: white;
+}
+
+h1{
+    font-family: Verdana;
+    color: black;
+}
+
+p{
+    font-family: Verdana;
+    color: black;
+}
+
+.nav-menu{
+    margin: -10pt;
+    width: auto;
+    height: 83px;
+    background-color: #38003c;
+}
+
+.nav-menu li{
+    display: inline;
+    float: left;
+}
+
+.nav-menu li #css-icon{
+    padding-top: 10pt;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    font-family: Verdana;
+    display: block;
+    padding: 25px;
+    color: whitesmoke;
+}
+
+.nav-menu .drop-down {
+    width: auto;
+    background-color: red;
+}
+
+ul.nav-menu li ul.dropdown li {
+    display: block;
+}
+
+ul.nav-menu li ul.dropdown {
+    width: 100pt;
+    background: #38003c;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul.nav-menu li ul.dropdown a:hover {
+    text-decoration: underline;
+}
+
+ul.nav-menu li:hover ul.dropdown {
+    display: block;
+}
+
+.nav-menu #sign-up {
+    float: right;
+}
+
+.nav-menu #log-in {
+    margin-left: -15pt;
+    float: right;
+}
+
+.nav-menu #search-logo {
+    padding-right: 15pt;
+    float: right;
+}
+
+.nav-menu #search-logo img {
+    padding-top: 15pt;
+    width: 3cap;
+}
+
+.hello {
+    background-color: aqua;
+    padding: 10pt;
+    margin: -10pt;
+}
