@@ -1,4 +1,4 @@
-# Web-Developmen
+# Web-Development
 This repository contains two main folders: *'html_learning'* and *'css_learning'*, each dedicated to learning HTML5 and CSS respectively.
 
 ## HTML Learning
@@ -11,13 +11,13 @@ To view the HTML learning materials:
 2. Open the *'index.html'* file in a web browser.
 
 ## CSS Learning
-The *'css_learning'* folder contains projects and exercises dedicated to CSS. This section emphasizes the application of styles, layouts, and design principles using CSS. To see the results, access the *'home_page.html'* file within this folder in a web browser.
+The *'css_learning'* folder contains projects and exercises dedicated to CSS. This section emphasizes the application of styles, layouts, and design principles using CSS. To see the results, access the *'home.html'* file within this folder in a web browser.
 
 ### Instructions
 To view the CSS learning materials:
 
 1. Go to the *'css_learning'* folder.
-2. Open the *'home_page.html'* file in a web browser.
+2. Open the *'home.html'* file in a web browser.
 
 ##
 
