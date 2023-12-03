@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #E8DAEF;
 }
 
 h1{
@@ -80,7 +80,8 @@ ul.nav-menu li:hover ul.dropdown {
     width: 3cap;
 }
 
-.hello {
+.title {
+    text-align: center;
     background-color: aqua;
     padding: 10pt;
     margin: -10pt;
